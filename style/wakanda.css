@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Panthera;
+    src: url(../police/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: BEYNO;
+    src: url(../police/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: Wakanda forever;
+    src: url(../police/Wakanda4Ever-gxg5p.ttf);
+}
+
+@font-face {
+    font-family: Cantarell;
+    src: url(../police/Cantarell-Regular.ttf);
+}
+
+:root{
+    white-color: #FFFFFF;
+    pink-light-color:#F2CEF2;
+    pink-purple-color:#9E91B7;
+    pink-color:#DF99F2;
+    purple-color:#3D2DA6;
+    blue-color:#07338C;
+    dark-blue-color:#021740;
+    gradient-blue:  #11213F;
+    gradient-black:#0B0B0B;
+    gradien-blue-dark:#021740;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Panthera;
+    font-size: 68px;
+    font-weight: 400;
+    color: #9E91B7; 
+}
+
+h2{
+    font-family: BEYNO;
+    font-size: 32px;
+    font-weight: 400;
+    color: #9E91B7;
+}
+
+button{
+    font-family: 'Cantarel';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    margin: 120px auto;
+}
+
+body{
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%,
+    #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%,
+    rgba(2, 23, 64, 0) 100%);
+    color: #FFFFFF;
+    font-family:'Cantarell';
+    font-weight: 16px;
+}
+
+/* Design de la nav */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    color: #FFFFFF;
+}
+
+nav .nav-image{
+    margin-left: 60px;    
+}
+
+
+nav .nav-list{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Cantarell';
+    margin-right: 60px;
+    color: #FFFFFF;
+}
+
+nav .nav-list a{
+    margin: 20px;
+    color: #FFFFFF;
+    text-decoration: none;   
+}
+
+nav .nav-list a:hover{
+    text-decoration: underline;
+}
+
+nav .nav-list .menu{
+    color:#3D2DA6;
+}

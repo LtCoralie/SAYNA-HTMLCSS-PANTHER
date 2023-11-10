@@ -1,0 +1,373 @@
+@font-face {
+    font-family: Panthera;
+    src: url(../police/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: BEYNO;
+    src: url(../police/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: Wakanda forever;
+    src: url(../police/Wakanda4Ever-gxg5p.ttf);
+}
+
+@font-face {
+    font-family: Cantarell;
+    src: url(../police/Cantarell-Regular.ttf);
+}
+
+:root{
+    white-color: #FFFFFF;
+    pink-light-color:#F2CEF2;
+    pink-purple-color:#9E91B7;
+    pink-color:#DF99F2;
+    purple-color:#3D2DA6;
+    blue-color:#07338C;
+    dark-blue-color:#021740;
+    gradient-blue:  #11213F;
+    gradient-black:#0B0B0B;
+    gradien-blue-dark:#021740;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Panthera;
+    font-size: 68px;
+    font-weight: 400;
+    color: #9E91B7; 
+}
+
+h2{
+    font-family: BEYNO;
+    font-size: 32px;
+    font-weight: 400;
+    color: #9E91B7;
+}
+
+button{
+    font-family: 'Cantarel';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    margin: 120px auto;
+}
+
+body{
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%,
+    #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%,
+    rgba(2, 23, 64, 0) 100%);
+    color: #FFFFFF;
+    font-family:'Cantarell';
+    font-weight: 16px;
+}
+
+/* Design de la nav */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    color: #FFFFFF;
+}
+
+nav .nav-image{
+    margin-left: 60px;    
+}
+
+
+nav .nav-list{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Cantarell';
+    margin-right: 60px;
+    color: #FFFFFF;
+}
+
+nav .nav-list a{
+    margin: 20px;
+    color: #FFFFFF;
+    text-decoration: none;   
+}
+
+nav .nav-list a:hover{
+    text-decoration: underline;
+}
+
+nav .nav-list .menu{
+    color:#3D2DA6;
+}
+
+/* Design des icônes sur le côté left */
+.scroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    height: 200px;
+    align-items: center;
+    position: fixed;
+    top: 230px;
+    left:20px;
+}
+
+/* Design de la section Wakanda forever */
+
+
+#wakanda-forever .container{
+    display: flex;
+    flex-direction: row;
+}
+
+#wakanda-forever .wf-left{
+    margin: auto 0;
+}
+
+.voir-plus{
+    color:#FFFFFF
+}
+
+/* Design de la section Personnages */
+
+#personnages .container{
+    display: flex;
+    flex-direction: row;
+    background-color: #021740;
+}
+
+.KILLMONGER{
+    height: 341px;
+    padding: 50px;
+}
+
+.OKOYE{
+    height: 341px;
+    padding: 30px;
+    background-image: url(../Illustrations+Logo/Accueil/);
+}
+
+.panther2{
+    margin-left: 50px;
+    scale: 120%;
+}
+
+/* Design de la section Hero */
+
+#hero .container{
+    display: flex;
+    flex-direction: row;
+}
+
+#hero .content-left{
+    padding: 150px;
+}
+
+#hero .content-left p{
+    margin: 20px;
+}
+
+#hero .content-left h2{
+    margin-top: 20px;
+}
+
+#hero .content-left ul{
+    margin-left: 100px;
+    list-style-type: disc;
+}
+
+#hero .content-right .actor{
+    background-color: #FFFFFF;
+    padding: 150px 40px;
+    border-radius: 20px;
+}
+
+#hero .content-right .actor p{
+    margin: 30px 170px;
+    color: #021740;
+    font-size: 25px;
+}
+
+#hero .content-right .actor .choix{
+    display: block;
+    margin: 30px 30px;
+}
+
+#hero .content-right .actor .btn{
+    background-color: #07338C;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#hero .content-right .info{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #07338C;
+}
+
+#hero .content-right ul{
+    list-style: none;
+    padding: 15px;
+}
+
+#hero .content-right li{
+    padding: 5px;
+}
+
+#hero .content-right img{
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+   
+#hero .content-right .image{
+    position: relative;
+    bottom: -100px;
+}
+
+/* Design de la section contact */
+
+#contact{
+    background-image: url(../Illustrations+Logo/Accueil/Pantherhome7.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+#contact .container{
+    background-color:#f2cef286;
+    border-radius: 150px;
+    padding: 70px;
+    color: #021740;
+    width: 50%;
+}
+
+#contact .container p{
+    margin: 5px 200px;
+    font-size: 20px;
+}
+
+#contact .container .container{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    height: 400px;
+}
+
+#contact .container .formulaire p{
+    font-size: 30px;
+    margin: 5px 250px;
+    font-weight: 1000;
+}
+
+#contact .container .formulaire textarea{
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+    background-color: transparent;
+    border-color: #021740;
+    margin: 25px 100px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+#contact .container .form-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contact .container .form-bottom textarea{
+    width: 520px;
+    height: 150px;
+    border-radius: 38px;
+    background-color: transparent;
+    border-color: #021740;
+    margin: 25px 100px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+#contact .container .form-bottom input{
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    background-color: DF99F2 ;
+    margin: 50px auto;
+}
+
+/* Designe du footer */
+
+footer .info-foot{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .info-foot .foot-image{
+    background-image: url(../Illustrations+Logo/Allpages/footer1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 400px;
+    padding: 150px;
+}
+
+footer .info-foot .foot-page{
+    margin: 10px 0;
+}
+
+footer .info-foot .foot-page p{
+    margin: 22px;
+    font-size: 20px;
+}
+
+footer .info-foot .foot-page ul{
+    list-style: none;
+}
+
+footer .info-foot .foot-page a{
+    color: #FFFFFF;
+    margin: 30px;
+    text-decoration: none;
+    display: block;
+    height: 10px;
+}
+
+footer .info-foot .foot-page a:hover{
+    text-decoration: underline;
+}
+
+footer .info-foot .retrouvez-nous{
+    margin: 10px 0;
+}
+
+footer .info-foot .retrouvez-nous p{
+    margin: 22px;
+    font-size: 20px;
+}
+
+footer .info-foot .retrouvez-nous .foot-res-soc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .mention{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: -930px;
+    top: -220px;
+}
