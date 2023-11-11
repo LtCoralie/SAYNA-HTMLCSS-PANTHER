@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: Wakanda forever;
-    src: url(../police/Wakanda4Ever-gxg5p.ttf);
+    src: url(../police/WakandaForever-Regular.ttf);
 }
 
 @font-face {
@@ -51,6 +51,17 @@ h2{
     color: #9E91B7;
 }
 
+h3{
+    font-family: Wakanda forever;
+    font-size: 32px;
+    font-weight: 400;
+    color: #9E91B7;
+}
+
+span{
+    font-family: Wakanda forever;
+}
+
 button{
     font-family: 'Cantarel';
     font-size: 20px;
@@ -59,7 +70,7 @@ button{
 
 .container{
     width: 80%;
-    margin: 120px auto;
+    margin: 0 auto;
 }
 
 body{
@@ -108,209 +119,109 @@ nav .nav-list .menu{
     color:#3D2DA6;
 }
 
-/* Design des icônes sur le côté left */
-.scroll{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between ;
-    height: 200px;
-    align-items: center;
-    position: fixed;
-    top: 230px;
-    left:20px;
-}
+/* Design de la section doramilaje */
 
-/* Design de la section Wakanda forever */
-
-
-#wakanda-forever .container{
+#doramilaje .top-part{
     display: flex;
     flex-direction: row;
 }
 
-#wakanda-forever .wf-left{
-    margin: auto 0;
+#doramilaje .top-part .image img{
+    width: 1000px;
 }
 
-.voir-plus{
-    color:#FFFFFF
+#doramilaje .top-part .image{
+    position: relative;
+    top: -100px;
 }
 
-/* Design de la section Personnages */
-
-#personnages .container{
-    display: flex;
-    flex-direction: row;
-    background-color: #021740;
-}
-
-.KILLMONGER{
-    height: 341px;
-    padding: 50px;
-}
-
-.OKOYE{
-    height: 341px;
-    padding: 30px;
-    background-image: url(../Illustrations+Logo/Accueil/);
-}
-
-.panther2{
-    margin-left: 50px;
-    scale: 120%;
-}
-
-/* Design de la section Hero */
-
-#hero .container{
-    display: flex;
-    flex-direction: row;
-}
-
-#hero .content-left{
-    padding: 150px;
-}
-
-#hero .content-left p{
-    margin: 20px;
-}
-
-#hero .content-left h2{
-    margin-top: 20px;
-}
-
-#hero .content-left ul{
-    margin-left: 100px;
-    list-style-type: disc;
-}
-
-#hero .content-right .actor{
-    background-color: #FFFFFF;
-    padding: 150px 40px;
-    border-radius: 20px;
-}
-
-#hero .content-right .actor p{
-    margin: 30px 170px;
-    color: #021740;
-    font-size: 25px;
-}
-
-#hero .content-right .actor .choix{
-    display: block;
-    margin: 30px 30px;
-}
-
-#hero .content-right .actor .btn{
-    background-color: #07338C;
-    color: #FFFFFF;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-#hero .content-right .info{
-    margin-top: 20px;
-    text-decoration: none;
-    color: #07338C;
-}
-
-#hero .content-right ul{
-    list-style: none;
-    padding: 15px;
-}
-
-#hero .content-right li{
-    padding: 5px;
-}
-
-#hero .content-right img{
+#doramilaje .top-part .text .paragraph{
+    width: 600px;
     position: relative;
     top: 200px;
-    left: 50px;
 }
-   
-#hero .content-right .image{
+
+#doramilaje .top-part .text .round{
     position: relative;
-    bottom: -100px;
+    top: -100px;
+    left: -100px;
 }
 
-/* Design de la section contact */
-
-#contact{
-    background-image: url(../Illustrations+Logo/Accueil/Pantherhome7.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
+#doramilaje .top-part .text .lign{
+    position: relative;
+    top: -130px;
+    left: -50px;
 }
 
-#contact .container{
-    background-color:#f2cef286;
-    border-radius: 150px;
-    padding: 70px;
-    color: #021740;
-    width: 50%;
+#doramilaje .top-part .text .paragraph h2{
+    font-size: 50px;
 }
 
-#contact .container p{
-    margin: 5px 200px;
-    font-size: 20px;
+#doramilaje .top-part .text .paragraph p{
+    margin-top: 100px;
 }
 
-#contact .container .container{
+/* Design de la section sur alphabet */
+
+#alphabet h3{
+    width: 60%;
+}
+
+#alphabet .bottom-part{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#alphabet .right-part{
+    width: 500px;
+    text-align: center;
+}
+
+#alphabet .right-part p{
+    padding: 10px;
+}
+
+#alphabet .round{
+    position: relative;
+    right: -800px;
+    top: -500px;
+}
+
+#alphabet .transcription ul{
+    list-style: none;
+    margin: 30px 0;
+}
+
+#alphabet .formulaire{
     display: flex;
     flex-direction: column;
-   justify-content: space-between;
-    height: 400px;
 }
 
-#contact .container .formulaire p{
-    font-size: 30px;
-    margin: 5px 250px;
-    font-weight: 1000;
-}
 
-#contact .container .formulaire textarea{
+#alphabet .formulaire textarea{
     width: 520px;
-    height: 56px;
+    height: 50px;
     border-radius: 38px;
     background-color: transparent;
-    border-color: #021740;
-    margin: 25px 100px;
-    padding: 15px;
+    border-color: #F2CEF2;
+    margin: 25px 0;
     font-size: 15px;
 }
 
-#contact .container .form-bottom{
-    display: flex;
-    flex-direction: column;
-}
-
-
-#contact .container .form-bottom textarea{
-    width: 520px;
-    height: 150px;
-    border-radius: 38px;
-    background-color: transparent;
-    border-color: #021740;
-    margin: 25px 100px;
-    padding: 15px;
-    font-size: 15px;
-}
-
-#contact .container .form-bottom input{
+#alphabet .formulaire input{
     width: 174px;
     height: 54px;
     border-radius: 38px;
-    background-color: #DF99F2 ;
-    margin: 50px auto;
+    background-color: #F2CEF2;
+    margin: 0 150px;
 }
 
-#contact .container .form-bottom input:hover{
-    box-shadow: 0 0 20px #021740;
+#alphabet .formulaire input:hover{
+    box-shadow: 0 0 20px #F2CEF2;
     cursor: pointer;
 }
-
 
 /* Designe du footer */
 
@@ -382,3 +293,6 @@ footer .mention{
     right: -930px;
     top: -220px;
 }
+
+
+  

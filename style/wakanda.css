@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: Wakanda forever;
-    src: url(../police/Wakanda4Ever-gxg5p.ttf);
+    src: url(../police/WakandaForever-Regular.ttf);
 }
 
 @font-face {
@@ -59,7 +59,7 @@ button{
 
 .container{
     width: 80%;
-    margin: 120px auto;
+    margin: 0 auto;
 }
 
 body{
@@ -107,3 +107,152 @@ nav .nav-list a:hover{
 nav .nav-list .menu{
     color:#3D2DA6;
 }
+
+/* Design sur la section Wakanda forever */
+
+#wakanda-forever{
+    background-image: url(../Illustrations+Logo/Wakanda/Pantherwakanda1.png);
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-position: top;
+}
+
+#wakanda-forever .container{
+    /*margin: 50px auto;*/
+    width: 50%;
+    position: relative;
+    left: -200px;
+    bottom: -250px;
+}
+
+#wakanda-forever p{
+    width: 50%;
+    margin-top: 20px;
+}
+
+/* Design sur la section descriptions */
+
+#descriptions{
+    background-image: url(../Illustrations+Logo/Wakanda/Pantherwakanda2.png);
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#descriptions .container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+#descriptions .container .text-left{
+    margin-right: 600px;
+}
+
+#descriptions .container .text-right{
+    margin-left: -500px;
+}
+
+#descriptions .container p{
+    margin: 20px auto;
+}
+
+#descriptions .container .link{
+    background-color: #07338C;
+    height: 300px;
+    padding: 60px;
+    margin: 50px 0;
+}
+
+#descriptions .container a{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#descriptions .container .force-militaire{
+    margin-top: 30px;
+}
+
+#contact .container .form-bottom input:hover{
+    box-shadow: 0 0 20px #021740;
+    cursor: pointer;
+}
+
+/* Designe du footer */
+
+footer{
+    background-image: url(../Illustrations+Logo/Allpages/back_footer.png);
+    background-repeat: no-repeat;
+}
+
+footer .info-foot{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .info-foot .foot-image{
+    background-image: url(../Illustrations+Logo/Allpages/footer1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 400px;
+    padding: 150px;
+}
+
+footer .info-foot .foot-page{
+    margin: 10px 0;
+}
+
+footer .info-foot .foot-page p{
+    margin: 22px;
+    font-size: 20px;
+}
+
+footer .info-foot .foot-page ul{
+    list-style: none;
+}
+
+footer .info-foot .foot-page a{
+    color: #FFFFFF;
+    margin: 30px;
+    text-decoration: none;
+    display: block;
+    height: 10px;
+}
+
+footer .info-foot .foot-page a:hover{
+    text-decoration: underline;
+}
+
+footer .info-foot .retrouvez-nous{
+    margin: 10px 0;
+}
+
+footer .info-foot .retrouvez-nous p{
+    margin: 22px;
+    font-size: 20px;
+}
+
+footer .info-foot .retrouvez-nous .foot-res-soc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .mention{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: -930px;
+    top: -220px;
+}
+
+
+
+
+ 
